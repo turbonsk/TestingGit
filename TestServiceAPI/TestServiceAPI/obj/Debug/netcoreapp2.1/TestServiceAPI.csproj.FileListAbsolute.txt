@@ -1,0 +1,3 @@
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.csproj.CoreCompileInputs.cache
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.AssemblyInfoInputs.cache
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.AssemblyInfo.cs
