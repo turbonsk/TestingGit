@@ -11,6 +11,10 @@ namespace TestServiceAPI.Controllers
     public class ValuesController : ControllerBase
     {
         // GET api/values
+        /// <summary>
+        /// Method Get
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
@@ -18,12 +22,20 @@ namespace TestServiceAPI.Controllers
         }
 
         // GET api/values/5
+        /// <summary>
+        /// Method Get
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns>id Value</returns>
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
             return "value";
         }
-
+        /// <summary>
+        /// Method Post
+        /// </summary>
+        /// <param name="value"></param>
         // POST api/values
         [HttpPost]
         public void Post([FromBody] string value)
@@ -41,5 +53,7 @@ namespace TestServiceAPI.Controllers
         public void Delete(int id)
         {
         }
+
+        
     }
 }
