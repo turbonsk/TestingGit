@@ -68,5 +68,12 @@ namespace TestServiceAPI.Controllers
         }
 
         
+        [HttpDelete()]
+        public void Delete()
+        {
+            //Удалим все к херам. Версия 1
+        }
+
+
     }
 }
