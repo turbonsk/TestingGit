@@ -29,6 +29,7 @@ namespace TestServiceAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            // Добавили сюда сваггер.
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1",new Info{Title = "TestApi", Version = "v1"});

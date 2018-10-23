@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
@@ -53,6 +54,13 @@ namespace TestServiceAPI.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+        }
+
+        public void FakeMethod(int q)
+        {
+            //Постой паровоз, не стучите колеса.
+            //Кондуртор, нажми на тормоза.
+            Thread.Sleep(q*1000);
         }
 
         [HttpDelete("{i}")]
