@@ -20,19 +20,7 @@ namespace TestServiceAPI.Controllers
         {
             return new string[] { "value1", "value2" };
         }
-
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> GetV3()
-        {
-            return new string[] {"value3", "value3"};
-        }
-
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> GetV2()
-        {
-            return new string[] { "value3", "value4" };
-        }
-
+        
         // GET api/values/5
         /// <summary>
         /// Method Get
@@ -44,6 +32,7 @@ namespace TestServiceAPI.Controllers
         {
             return "value";
         }
+
         /// <summary>
         /// Method Post
         /// </summary>
@@ -65,29 +54,5 @@ namespace TestServiceAPI.Controllers
         public void Delete(int id)
         {
         }
-
-
-        [HttpDelete()]
-        public void Delete()
-        {
-            //И тут все тоже к херам удалим. Вторая версия
-        }
-
-        [HttpGet]
-        public ActionResult<IEnumerable<string>> GetQ2()
-        {
-            //А еще добавим GET
-            return new string[] { "valueQ2", "valueQ2" };
-        }
-
-        
-        [HttpDelete()]
-        public void Delete()
-        {
-            //Удалим все к херам. Версия 1
-        }
-
-
-
     }
 }
