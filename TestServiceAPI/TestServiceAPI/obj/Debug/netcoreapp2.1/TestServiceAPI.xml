@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestServiceAPI</name>
+    </assembly>
+    <members>
+        <member name="M:TestServiceAPI.Controllers.ValuesController.Get">
+            <summary>
+            Method Get
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TestServiceAPI.Controllers.ValuesController.Get(System.Int32)">
+            <summary>
+            Method Get
+            </summary>
+            <param name="id"></param>
+            <returns>id Value</returns>
+        </member>
+        <member name="M:TestServiceAPI.Controllers.ValuesController.Post(System.String)">
+            <summary>
+            Method Post
+            </summary>
+            <param name="value"></param>
+        </member>
+    </members>
+</doc>
