@@ -25,7 +25,8 @@ namespace TestServiceAPI.Controllers
 
         public ActionResult<IEnumerable<string>> GetV3()
         {
-            return new string[] { "value3", "value3" };
+            return new string[] {"value3", "value3"};
+        }
 
         public ActionResult<IEnumerable<string>> GetV2()
         {
