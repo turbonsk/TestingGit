@@ -1,3 +1,17 @@
 C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.csproj.CoreCompileInputs.cache
 C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.AssemblyInfoInputs.cache
 C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.AssemblyInfo.cs
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\bin\Debug\netcoreapp2.1\TestServiceAPI.deps.json
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\bin\Debug\netcoreapp2.1\TestServiceAPI.runtimeconfig.json
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\bin\Debug\netcoreapp2.1\TestServiceAPI.runtimeconfig.dev.json
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\bin\Debug\netcoreapp2.1\TestServiceAPI.dll
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.RazorAssemblyInfo.cache
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.RazorAssemblyInfo.cs
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\bin\Debug\netcoreapp2.1\TestServiceAPI.pdb
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.dll
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.pdb
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\bin\Debug\netcoreapp2.1\TestServiceAPI.xml
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.csprojAssemblyReference.cache
+C:\Users\Семья\source\repos\TestingGit\TestServiceAPI\TestServiceAPI\obj\Debug\netcoreapp2.1\TestServiceAPI.xml
