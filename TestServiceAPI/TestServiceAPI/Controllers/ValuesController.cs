@@ -31,7 +31,6 @@ namespace TestServiceAPI.Controllers
         public ActionResult<IEnumerable<string>> GetV2()
         {
             return new string[] { "value3", "value4" };
-
         }
 
         // GET api/values/5
@@ -67,12 +66,27 @@ namespace TestServiceAPI.Controllers
         {
         }
 
+
+        [HttpDelete()]
+        public void Delete()
+        {
+            //И тут все тоже к херам удалим. Вторая версия
+        }
+
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> GetQ2()
+        {
+            //А еще добавим GET
+            return new string[] { "valueQ2", "valueQ2" };
+        }
+
         
         [HttpDelete()]
         public void Delete()
         {
             //Удалим все к херам. Версия 1
         }
+
 
 
     }
