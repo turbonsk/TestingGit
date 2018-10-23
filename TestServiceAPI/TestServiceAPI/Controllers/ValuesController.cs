@@ -54,5 +54,18 @@ namespace TestServiceAPI.Controllers
         public void Delete(int id)
         {
         }
+
+        [HttpDelete("{i}")]
+        public long Generator(int i)
+        {
+            //Самое главное и нужное изменение, которое никогда не уйдет в бой
+            long sum = 0;
+            for (int q = 0; q < i; q++)
+            {
+                sum += q;
+            }
+            return sum;
+        }
+
     }
 }
