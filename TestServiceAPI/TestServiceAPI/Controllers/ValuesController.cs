@@ -21,6 +21,12 @@ namespace TestServiceAPI.Controllers
             return new string[] { "value1", "value2" };
         }
 
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> GetV2()
+        {
+            return new string[] { "value3", "value4" };
+        }
+
         // GET api/values/5
         /// <summary>
         /// Method Get
