@@ -66,6 +66,7 @@ namespace TestServiceAPI.Controllers
         {
         }
 
+
         [HttpDelete()]
         public void Delete()
         {
@@ -78,6 +79,15 @@ namespace TestServiceAPI.Controllers
             //А еще добавим GET
             return new string[] { "valueQ2", "valueQ2" };
         }
+
+        
+        [HttpDelete()]
+        public void Delete()
+        {
+            //Удалим все к херам. Версия 1
+        }
+
+
 
     }
 }
